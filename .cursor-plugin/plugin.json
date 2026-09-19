@@ -1,0 +1,31 @@
+{
+  "name": "pdf-ops",
+  "displayName": "PDF Ops",
+  "version": "0.1.0",
+  "description": "Generate PDFs that are not silently cut off — wrapping and pagination that actually work, tables that repeat their headers, glyph coverage checks, image aspect ratios, and correct page numbers. Ships a deterministic benchmark.",
+  "author": {
+    "name": "AgentUI",
+    "url": "https://www.agentui.ai/"
+  },
+  "homepage": "https://github.com/agentui-ai/pdf-ops",
+  "repository": "https://github.com/agentui-ai/pdf-ops",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "pdf",
+    "jspdf",
+    "invoice",
+    "report",
+    "export",
+    "jspdf-autotable",
+    "pdf-lib"
+  ],
+  "category": "productivity",
+  "tags": [
+    "pdf",
+    "jspdf",
+    "invoice",
+    "report",
+    "export"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "pdf-ops",
+    "description": "Generate PDFs that are not silently cut off — wrapping and pagination that actually work, tables that repeat their headers, glyph coverage checks, image aspect ratios, and correct page numbers. Ships a deterministic benchmark.",
+    "owner": {
+        "name": "AgentUI"
+    },
+    "plugins": [
+        {
+            "name": "pdf-ops",
+            "source": "./",
+            "description": "Generate PDFs that are not silently cut off — wrapping and pagination that actually work, tables that repeat their headers, glyph coverage checks, image aspect ratios, and correct page numbers. Ships a deterministic benchmark."
+        }
+    ]
+}

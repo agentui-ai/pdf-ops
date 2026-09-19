@@ -1,0 +1,39 @@
+{
+  "name": "pdf-ops",
+  "version": "0.1.0",
+  "description": "Generate PDFs that are not silently cut off — wrapping and pagination that actually work, tables that repeat their headers, glyph coverage checks, image aspect ratios, and correct page numbers. Ships a deterministic benchmark.",
+  "author": {
+    "name": "AgentUI",
+    "url": "https://www.agentui.ai/"
+  },
+  "homepage": "https://github.com/agentui-ai/pdf-ops",
+  "repository": "https://github.com/agentui-ai/pdf-ops",
+  "license": "MIT",
+  "keywords": [
+    "pdf",
+    "jspdf",
+    "invoice",
+    "report",
+    "export",
+    "jspdf-autotable",
+    "pdf-lib"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PDF Ops",
+    "shortDescription": "PDFs that are not quietly cut off.",
+    "longDescription": "jsPDF draws exactly where you tell it and never complains: text wider than the page is drawn off the edge, text past the last line is drawn into nothing, and the file opens fine with the content missing. This skill covers the nine traps that cause it, ships a layout cursor that wraps and paginates and records every write so the layout is testable, and a deterministic benchmark that runs the from-memory version beside the skill's.",
+    "developerName": "AgentUI",
+    "category": "Productivity",
+    "capabilities": [],
+    "websiteURL": "https://github.com/agentui-ai/pdf-ops",
+    "brandColor": "#B3322C",
+    "defaultPrompt": [
+      "Generate a paginated PDF invoice from this data",
+      "My PDF is coming out cut off — find out why"
+    ],
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

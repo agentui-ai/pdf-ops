@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192" fill="none" role="img" aria-label="PDF Ops">
+  <title>PDF Ops</title>
+  <rect width="192" height="192" fill="#fff"/>
+  <g transform="translate(40 26)">
+    <!-- the page -->
+    <path d="M0 10a10 10 0 0 1 10-10h56l46 46v84a10 10 0 0 1-10 10H10a10 10 0 0 1-10-10z" fill="#B3322C"/>
+    <path d="M66 0l46 46H76a10 10 0 0 1-10-10z" fill="#7E1F1B"/>
+    <!-- lines of content, the last one running past the edge: the whole point -->
+    <g fill="#FFFFFF">
+      <rect x="18" y="66" width="60" height="7" rx="3.5" opacity="0.85"/>
+      <rect x="18" y="83" width="76" height="7" rx="3.5" opacity="0.85"/>
+      <rect x="18" y="100" width="48" height="7" rx="3.5" opacity="0.85"/>
+    </g>
+    <rect x="18" y="117" width="112" height="7" rx="3.5" fill="#F4B740"/>
+  </g>
+</svg>

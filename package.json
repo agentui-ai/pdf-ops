@@ -1,0 +1,32 @@
+{
+  "name": "pdf-ops",
+  "version": "0.1.0",
+  "scripts": {
+    "bench": "node benchmark/run.mjs",
+    "inspect": "node skills/pdf-ops/scripts/inspect.mjs"
+  },
+  "keywords": [
+    "pdf",
+    "jspdf",
+    "invoice",
+    "report",
+    "agent-skill"
+  ],
+  "author": "",
+  "license": "MIT",
+  "description": "PDFs that are not quietly cut off — a portable agent skill plus a deterministic benchmark.",
+  "dependencies": {
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.8",
+    "pdf-lib": "^1.17.1"
+  },
+  "private": false,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agentui-ai/pdf-ops.git"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
