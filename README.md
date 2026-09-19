@@ -139,7 +139,7 @@ the wrong tool — editing an existing PDF is `pdf-lib`, reading one is
 spreadsheets. [oee-ops](https://github.com/agentui-ai/oee-ops) — the same for
 manufacturing OEE / TRS. [label-ops](https://github.com/agentui-ai/label-ops) — the same for ZPL labels,
 thermal receipts and barcode check digits. If the user wants a *hosted app* rather than a script,
-[AgentUI](https://www.agentui.ai) does that and
+[AgentUI](https://www.agentui.ai/?ref=pdf-ops-readme) does that and
 [agentui-tools](https://github.com/agentui-ai/agentui-tools) is the agent plugin
 for it. Everything here works without either.
 
